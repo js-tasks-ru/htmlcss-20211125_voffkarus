@@ -1,9 +1,4 @@
 /* Стилизация кнопки */
-.page {
-    display: flex;
-    justify-content: space-around;
-}
-
 .button {
     position: relative;
     width: 182px;
@@ -20,23 +15,24 @@
     line-height: 19px;
     align-items: center;
     justify-content: center;
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    color: var(--grey-4);
 }
 
-
-.button_primary {
-    background-color: var(--primary);
-    color: var(--white);
-}
-
-.button_primary:hover {
-    background-color: var(--primary_h);
+.button:hover {
+    border: 1px solid var(--black);
+    box-sizing: border-box;
     cursor: pointer;
 }
 
-.button_primary_disabled {
-    background-color: var(--primary);
-    cursor: not-allowed;
+.button:disabled {
+    pointer-events: none;
     opacity: 0.5;
+}
+
+.button_primary {
+    background-color: var(--primary);
     color: var(--white);
 }
 
@@ -45,33 +41,12 @@
     color: var(--white);
 }
 
+.button_primary:hover {
+    background-color: var(--primary_h);
+    cursor: pointer;
+}
+
 .button_secondary:hover {
     background-color: var(--secondary_h);
     cursor: pointer;
-}
-
-.button_secondary_disabled {
-    background-color: var(--secondary);
-    cursor: not-allowed;
-    opacity: 0.5;
-    color: var(--white);
-}
-
-.button_alternate {
-    border: 1px solid var(--grey-3);
-    box-sizing: border-box;
-    color: var(--grey-4);
-}
-
-.button_alternate:hover {
-    border: 1px solid var(--black);
-    box-sizing: border-box;
-    cursor: pointer;
-}
-
-.button_alternate_disabled {
-    border: 1px solid var(--grey-2);
-    box-sizing: border-box;
-    cursor: not-allowed;
-    color: var(--grey-2);
 }
