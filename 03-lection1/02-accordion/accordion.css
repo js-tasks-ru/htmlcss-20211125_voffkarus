@@ -3,12 +3,7 @@
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
-    width: 730px;
-    font-family: Inter;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    max-width: 730px;
     margin-bottom: 8px;
 }
 
@@ -18,6 +13,14 @@
 
 .accordionItem__title {
     color: var(--black);
+    padding-top: 24px;
+    padding-left: 32px;
+    padding-bottom: 24px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .accordionItem__title::-webkit-details-marker {
@@ -26,4 +29,11 @@
 
 .accordionItem__details {
     color: var(--grey-4);
+    padding-bottom: 32px;
+    padding-left: 32px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
 }
