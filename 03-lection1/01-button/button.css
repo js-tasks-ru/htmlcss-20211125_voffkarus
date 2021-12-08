@@ -18,12 +18,12 @@
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     color: var(--grey-4);
+	cursor: pointer;
 }
 
 .button:hover {
     border: 1px solid var(--black);
     box-sizing: border-box;
-    cursor: pointer;
 }
 
 .button:disabled {
@@ -43,10 +43,8 @@
 
 .button_primary:hover {
     background-color: var(--primary_h);
-    cursor: pointer;
 }
 
 .button_secondary:hover {
     background-color: var(--secondary_h);
-    cursor: pointer;
 }
