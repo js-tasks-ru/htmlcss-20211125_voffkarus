@@ -16,9 +16,21 @@
     --success: var(--blue);
 
     --primary: var(--blue);
+    --primary_h: #2342c0;
     --secondary: var(--purple);
+    --secondary_h: #5028C6;
 }
 
 * {
     font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+html,
+body {
+    height: 100%;
 }
