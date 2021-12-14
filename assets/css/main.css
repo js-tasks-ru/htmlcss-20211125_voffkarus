@@ -19,7 +19,9 @@
     --primary_h: #2342c0;
     --secondary: var(--purple);
     --secondary_h: #5028C6;
-}
+
+    --link:#4263EB;
+}   
 
 * {
     font-family: 'Roboto', sans-serif;
