@@ -1,58 +1,48 @@
-:root { 
-    --grad: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
-}
-
 .skeleton {
-    width: 579px;
-    height: 192px;
     background: var(--white);
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
     display: flex;
-flex-wrap: wrap;
+    flex-wrap: wrap;
+    --grad: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
 }
 
-.skeleton_wrapper {
+.skeleton__wrapper {
     display: flex;
     flex-direction: column;
-}
-.skeleton_wrapper:last-child {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 32px;
+    padding-left: 24px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    gap: 8px;
 }
 
-.skeleton_wrapper__avatar {
+.skeleton__wrapper:last-child {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.skeleton__avatar {
     width: 64px;
     height: 64px;
     background: var(--grey-2);
     border-radius: 50%;
-    margin-left: 24px;
-    margin-top: 24px;
-    margin-bottom: 16px;
 }
 
-.skeleton_wrapper__name {
+.skeleton__line {
+    height: 20px;
+    background: var(--grad);
+}
+
+.skeleton__line_name {
     width: 172px;
-    height: 20px;
-    background: var(--grad);
-    margin-left: 16px;
-    margin-top: 32px;
 }
 
-.skeleton_wrapper__title {
+.skeleton__line_title {
     width: 257px;
-    height: 20px;
-    background: var(--grad);
-    margin-left: 16px;
-    margin-top: 8px;
 }
 
-.skeleton__desc {
+.skeleton__line_desc {
     width: 515px;
-    height: 20px;
-    background: var(--grad);
-    margin-left: 24px;
-    margin-top: 8px;
 }
