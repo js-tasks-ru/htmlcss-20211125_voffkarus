@@ -3,9 +3,13 @@
     border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
-    display: flex;
-    flex-wrap: wrap;
     --grad: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
+}
+
+.skeleton__top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .skeleton__wrapper {
@@ -15,12 +19,14 @@
     padding-top: 24px;
     padding-bottom: 16px;
     gap: 8px;
+    flex: 1 1 1;
 }
 
 .skeleton__wrapper:last-child {
     display: flex;
     flex-direction: column;
     margin-bottom: 8px;
+    flex: 1;
 }
 
 .skeleton__avatar {
@@ -36,13 +42,13 @@
 }
 
 .skeleton__line_name {
-    width: 172px;
+    width: 40%;
 }
 
 .skeleton__line_title {
-    width: 257px;
+    width: 60%;
 }
 
 .skeleton__line_desc {
-    width: 515px;
+    width: 95%;
 }

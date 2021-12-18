@@ -5,6 +5,7 @@
     border-radius: 8px;
     display: flex;
     flex-wrap: wrap;
+    padding: 16px 29px 24px 24px;
 }
 
 .histogram__label {
@@ -15,8 +16,6 @@
     line-height: 24px;
     color: var(--black);
     opacity: 0.8;
-    padding-left: 24px;
-    padding-top: 16px;
     flex-grow: 1;
 }
 
@@ -28,9 +27,6 @@
     line-height: 24px;
     text-align: right;
     color: var(--link);
-    padding-right: 29px;
-    padding-top: 16px;
-    padding-left: 47px;
 }
 
 .histogram__value {
@@ -40,8 +36,6 @@
     font-size: 20px;
     line-height: 26px;
     color: var(--black);
-    padding-left: 24px;
-    padding-top: 16px;
     flex: 1 1 100%;
 }
 
@@ -54,10 +48,7 @@
     display: flex;
     gap: 1px;
     align-items: flex-end;
-    padding-bottom: 24px;
-    padding-top: 26px;
-    padding-left: 26px;
-    padding-right: 29px;
+    padding-top: 10px;
 }
 
 .histogram_barswrapper__bar {
