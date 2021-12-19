@@ -43,7 +43,7 @@
     flex: 1 1 100%;
 }
 
-.histogram_barswrapper {
+.histogram__barswrapper {
     height: 50px;
     display: flex;
     gap: 1px;
@@ -51,7 +51,7 @@
     padding-top: 10px;
 }
 
-.histogram_barswrapper__bar {
+.histogram__barswrapper-bar {
     background-color: var(--link);
     flex-basis: auto;
     flex-grow: 1;
