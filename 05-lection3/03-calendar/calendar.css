@@ -1,32 +1,32 @@
 .calendar {
-display: flex;
-flex-direction: column;
-background: var(--white);
-border: 1px solid var(--grey-3);
-box-sizing: border-box;
-border-radius: 8px;
-padding: 28px;
-min-width: 304px;
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    border: 1px solid var(--grey-3);
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 28px;
+    min-width: 304px;
 }
 
 .calendar__title {
-align-self: center;
-font-family: Inter;
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 24px;
-padding-bottom: 12px;
+    align-self: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 12px;
 }
 
 .calendar-grid {
-display: grid;
-grid-template-columns: repeat(7, 1fr);
-grid-template-rows: repeat(6, 1fr);
-padding-top: 12px;
-padding-bottom: 12px;
-justify-items: center;
-align-items: center;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    padding-top: 12px;
+    padding-bottom: 12px;
+    justify-items: center;
+    align-items: center;
 }
 
 .calendar-grid__day-name {
@@ -37,7 +37,7 @@ align-items: center;
     line-height: 20px;
     color: var(--day-name);
     padding-bottom: 8px;
-
+    flex-grow: 1;
 }
 
 .calendar-grid__day-value {
@@ -46,13 +46,12 @@ align-items: center;
     font-size: 16px;
     line-height: 20px;
     color: var(--day-value);
-    
 }
 
 .calendar-grid__day-value_outermost {
-background: var(--link);
-padding: 9px;
-color: var(--white)
+    background: var(--link);
+    padding: 9px;
+    color: var(--white)
 }
 
 .calendar-grid__day-value_marked {
