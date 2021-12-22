@@ -21,7 +21,11 @@
     --secondary_h: #5028C6;
 
     --link:#4263EB;
-}   
+
+    --day-name: #90A0B7;
+    --day-value: #334D6E;
+   --day-active: #A0B1F5;
+}
 
 * {
     font-family: 'Roboto', sans-serif;
